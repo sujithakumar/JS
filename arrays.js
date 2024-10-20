@@ -57,7 +57,7 @@ console.log(numbers);
 console.log(filt);
 
 //flatten array 
-let newAr = [1, 2, 3, 4,[5, 6], [8, 9], [10, [11, 12], 13]];
+let newAr = [1, 2, 3, 4, [5, 6], [8, 9], [10, [11, 12], 13]];
 let op = newAr.flat(1);
 console.log(op);
 
@@ -71,5 +71,8 @@ console.log(op3);
 let op4 = [...newAr];
 console.log(op4)
 
-let out1 = numbers.map(x=>x= x+2);
+let out1 = numbers.map(x => x = x + 2);
 console.log(out1);
+
+let arrayNew = [1, 2, 4, 5, 2, 4, 5];
+console.log(arrayNew); //accepts duplicate values
